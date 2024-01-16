@@ -1,5 +1,5 @@
 import "./ErrorPage.scss";
-
+import { Link } from "react-router-dom";
 import React from "react";
 
 function ErrorPage() {
@@ -15,6 +15,11 @@ function ErrorPage() {
             <p className="subheading">
               Oops, il semble que tu te sois trompé de siège...
             </p>
+            <Link to="/">
+              <button type="button" className="button404">
+                Reviens...
+              </button>
+            </Link>
           </div>
         </div>
         <div className="right-section">
