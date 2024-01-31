@@ -1,10 +1,8 @@
 import "./Home.scss";
-import logohome from "../../assets/Logo_ATR_2.jpg";
 
 function Home() {
   return (
     <div>
-      <img className="logohome" src={logohome} alt="logo" />
       <div>
         <h1>Présentation de la COMPAGNIE À TOUT ROMPRE</h1>
         <p>

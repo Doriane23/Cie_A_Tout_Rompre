@@ -22,29 +22,36 @@ function Plays() {
           mois de relation, Didier est arrêté par la police et fait quelques
           années de prison. En parallèle, Adèle tente de se reconstruire.
         </p>
+        <button type="button">J'achete ma place</button>
         <div>
           <h2>Les Retrouvailles</h2>
           <img src={Retrouvailles} alt="affichelesretrouvailles" />
+          <button type="button">J'achete ma place</button>
         </div>
         <div>
           <h2>Jamais Seule</h2>
           <img src={Jamaisseule} alt="affichejamaisseule" />
+          <button type="button">J'achete ma place</button>
         </div>
         <div>
           <h2>Rencard ou Cocard</h2>
           <img src={Rencard} alt="afficherencardoucocard" />
+          <button type="button">J'achete ma place</button>
         </div>
         <div>
           <h2>Il faut sauver la jungle !</h2>
           <img src={Jungle} alt="afficheilfautsauverlajungle" />
+          <button type="button">J'achete ma place</button>
         </div>
         <div>
           <h2>Le Royaume Fou</h2>
           <img src={Royaume} alt="afficheleroyaumefou" />
+          <button type="button">J'achete ma place</button>
         </div>
         <div>
           <h2>Festival des Récits</h2>
           <img src={Festivalrecit} alt="affichefestivaldesrecits" />
+          <button type="button">J'achete ma place</button>
         </div>
       </div>
     </div>
