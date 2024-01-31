@@ -2,7 +2,7 @@ import "./Comedians.scss";
 import Marie from "../../assets/Marie_Wanziniack_Noel.jpg";
 import Emilien from "../../assets/Emilien_Decoudre.jpg";
 import Cloe from "../../assets/Cloé_Chope.jpg";
-import Justine from "../../assets/Justine_Rouet_Chabaux.JPG";
+import Justine from "../../assets/Justine_Rouet_Chabaux.jpg";
 import Fabrice from "../../assets/Fabrice_Simon.jpg";
 
 function Comedians() {

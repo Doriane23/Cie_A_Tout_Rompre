@@ -6,6 +6,11 @@ function Navbar() {
   return (
     <div>
       <ul>
+        <Link to="/">
+          <li>Accueil</li>
+        </Link>
+      </ul>
+      <ul>
         <Link to="/pieces">
           <li>Représentations</li>
         </Link>
