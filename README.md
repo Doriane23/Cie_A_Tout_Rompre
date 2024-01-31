@@ -17,9 +17,7 @@ Explorez notre répertoire engagé et aux différentes thématiques contemporain
 
 ## 📞 Contact
 
-Pour toute question, collaboration ou demande d'information, n'hésitez pas à nous contacter :
-
-🌐 Site Web : [www.atoutrompre.sdojfhdofj](site web ici)
+Pour toute question, collaboration ou demande d'information, n'hésitez pas à nous contacter.
 
 Suivez-nous sur les réseaux sociaux pour les dernières mises à jour et les coulisses des coulisses !
 
