@@ -8,6 +8,7 @@ import ErrorPage from "./pages/Page404/ErrorPage";
 import Home from "./pages/Home/Home";
 import Comedians from "./pages/Comedians/Comedians";
 import Plays from "./pages/Plays/Plays";
+import Profil from "./pages/Profil/Profil";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "/pieces",
         element: <Plays />,
+      },
+      {
+        path: "/profil",
+        element: <Profil />,
       },
     ],
   },

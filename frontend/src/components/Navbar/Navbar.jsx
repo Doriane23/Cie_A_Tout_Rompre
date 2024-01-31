@@ -23,7 +23,7 @@ function Navbar() {
         </Link>
       </ul>
       <ul>
-        <Link to="/compte">
+        <Link to="/profil">
           <li>Profil</li>
         </Link>
       </ul>
