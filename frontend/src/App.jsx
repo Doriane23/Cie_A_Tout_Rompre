@@ -1,9 +1,14 @@
 import React from "react";
+import Home from "./pages/Home/Home";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <div>
-      <h1>Je suis le h1 de app</h1>
+      <Navbar />
+      <Home />
+      <Footer />
     </div>
   );
 }
