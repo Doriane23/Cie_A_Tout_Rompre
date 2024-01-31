@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "./pages/Home/Home";
+import { Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Home />
+      <Outlet />
       <Footer />
     </div>
   );
