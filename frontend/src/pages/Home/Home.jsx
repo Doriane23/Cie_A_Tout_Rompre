@@ -6,6 +6,56 @@ function Home() {
     <div>
       <img className="logohome" src={logohome} alt="logo" />
       <div>
+        <h1>Présentation de la COMPAGNIE À TOUT ROMPRE</h1>
+        <p>
+          La compagnie À Tout Rompre, créée en juillet 2015, rassemble des
+          artistes de différents horizons qui s’investissent dans plusieurs
+          projets: créations, improvisations, réalisations, adaptations,
+          performances, et mènent à bien plusieurs représentations.
+        </p>
+        <p>
+          Aujourd"hui installée à Reims, la compagnie cherche en priorité à
+          composer avec une matière brute : inspirée du réel et des sujets forts
+          actuels, l’équipe d’À Tout Rompre compose plusieurs spectacles autour
+          de nombreuses thématiques : le harcèlement scolaire, la pédophilie, le
+          féminisme, la légitimité, le consentement… Par ailleurs, la compagnie
+          s'investit dans plusieurs créations collectives auprès d’équipes
+          découvrant le théâtre pour la première fois, mais aussi auprès de
+          plusieurs structures accueillant des enfants et des adultes en
+          situation de handicap (IME, Foyers d’accueil médicalisés…)
+        </p>
+        <p>
+          En parallèle, le CROUS de Reims a sollicité la compagnie À Tout Rompre
+          pour un partenariat : tout au long de l'année scolaire, une équipe
+          d'étudiantes et étudiants (“Rencard ou cocard”) se réunit afin de
+          mettre en place plusieurs créations en lien avec les thématiques
+          suivantes : les violences sexistes et sexuelles, la journée
+          internationale des droits des femmes, les droits LGBTQIA+... Depuis
+          septembre 2022, les étudiantes et étudiants et la compagnie À Tout
+          Rompre se mobilisent avec comme objectif d'aller à la rencontre de
+          différents établissements scolaires, mais aussi d'organiser des débats
+          menés par la responsable du service social du CROUS après chaque
+          représentation.
+        </p>
+        <p>
+          Enfin, la Compagnie À Tout Rompre est partenaire d’une création belge
+          “Personne ne sort les fusils” : en 2019, se tient le procès France
+          Télécom-Orange. Sept dirigeants sont accusés de harcèlement moral sur
+          leurs salariés, parfois jusqu'à leur mort. En adaptant l'œuvre de
+          Sandra Lucbert, le metteur en scène Thibault Sartori rend visible la
+          structure langagière de notre monde, sa violence et son influence
+          jusque dans notre psyché.
+        </p>
+        <p>
+          De la salle traditionnelle de théâtre à la représentation en plein
+          air, passant également par les lieux alternatifs, la compagnie
+          s’empare autant que possible de tous les espaces, quels qu’ils soient.
+          Le maître mot de notre démarche est l’« ici et maintenant », cherchant
+          toujours à tourner à notre avantage les imprévus et les lieux qui
+          semblent être inaccessibles.
+        </p>
+      </div>
+      <div>
         <h1>Nos ateliers</h1>
         <p>
           ATELIER THÉÂTRE - CRÉATION COLLECTIVE : Tous niveaux - à partir de 18
@@ -17,7 +67,7 @@ function Home() {
           s'investir à différents postes : interprétation, écriture, mise en
           scène, scénographie... Renseignements et inscriptions : Compagnie À
           Tout Rompre 06 32 32 87 33 / compagnie.atoutrompre@gmail.com Tarif :
-          220€00{" "}
+          220€00
         </p>
         <p>
           ATELIER THÉÂTRE - ENFANTS "imaginaire et créativité": Enfants de 6 à
