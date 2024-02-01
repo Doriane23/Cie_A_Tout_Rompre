@@ -2,16 +2,15 @@
  * On importe la DB pour accèder à notre base de donnée
  */
 
-const database = require("../../database/database");
+const UserManager = require("../models/UserManager");
 
 /**
  * Récupère TOUTES les données
  */
 const browse = async (req, res) => {
-  const SQL = "SELECT * FROM user";
   try {
-    const users = await database.query(SQL);
-    res.json(users[0]);
+    const users = await UserManager.readAll();
+    res.json(users);
   } catch (error) {
     console.error(error);
     res.status(500).json({ error });
@@ -24,10 +23,9 @@ const browse = async (req, res) => {
 const read = async (req, res) => {
   const { id } = req.params;
 
-  const SQL = "SELECT * FROM user WHERE id = ?";
   try {
-    const users = await database.query(SQL, [id]);
-    res.json(users[0]);
+    const result = await UserManager.read(id);
+    res.json(result);
   } catch (error) {
     console.error(error);
     res.status(500).json({ error });
