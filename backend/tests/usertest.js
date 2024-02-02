@@ -16,7 +16,7 @@ describe("Test de mon crud user", () => {
       expect(response.headers["content-type"]).toMatch(/json/);
     });
 
-    it("/users/:id, retourne un utilisateur", async () => {
+    it("/users/:id, retourne un seul utilisateur", async () => {
       const response = await request(app).get("/users/1");
 
       expect(response.statusCode).toBe(200);
@@ -29,5 +29,23 @@ describe("Test de mon crud user", () => {
 
       expect(response.status).toEqual(404);
     });
+  });
+});
+
+describe("POST /users", () => {
+  test("/users avec un user correctement ajouté", async () => {
+    const user = {
+      name: "Doriane",
+      email: "doriane.ml@wcs.com",
+      password: "unbigorneauenslip",
+    };
+
+    const response = await request(app).post("/users").send(user);
+
+    console.info(response.body);
+    expect(response.statusCode).toBe(201);
+    expect(response.headers["content-type"]).toMatch(/json/);
+    expect(response.body).toMatchObject({ message: "user ajouté" });
+    expect(response.body).toHaveProperty("message", "user ajouté");
   });
 });

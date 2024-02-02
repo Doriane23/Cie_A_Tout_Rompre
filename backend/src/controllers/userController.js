@@ -26,7 +26,7 @@ const read = async (req, res) => {
   try {
     const result = await UserManager.read(id);
     if (result.length === 0) {
-      return res.status(404).json({ message: "User not found" });
+      return res.status(404).json({ message: "Utilisateur non trouvé" });
     }
     return res.json(result);
   } catch (error) {
@@ -45,8 +45,22 @@ const edit = (req, res) => {
 /**
  * Ajoute UNE donnée
  */
-const add = (req, res) => {
-  res.send("Hello World from post");
+const add = async (req, res) => {
+  try {
+    const result = await UserManager.add(req.body);
+
+    console.info(result);
+    if (result.affectedRows === 1) {
+      return res.status(201).json({ message: "Utilisateur ajouté" });
+    }
+    return res.status(500).json({ message: "Utilisateur non ajouté" });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error });
+  }
+
+  // Ajout d'une déclaration de retour à la fin
+  return null;
 };
 
 /**

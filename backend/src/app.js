@@ -2,6 +2,8 @@ const express = require("express");
 
 const app = express();
 
+app.use(express.json());
+
 const userControllers = require("./controllers/userController");
 const sayHelloMiddleware = require("./services/sayHello");
 
