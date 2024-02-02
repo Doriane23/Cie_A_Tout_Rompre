@@ -2,16 +2,6 @@ const express = require("express");
 
 const app = express();
 
-/**
- * Creation de notre CRUD
- * à la racine
- *
- * Create = POST
- * Read = GET
- * Update = (PATCH)/PUT
- * Delete = DELETE
- */
-
 const userControllers = require("./controllers/userController");
 const sayHelloMiddleware = require("./services/sayHello");
 
